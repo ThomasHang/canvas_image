@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -43,8 +43,9 @@
 
 .canvas_tool{
   height: 800px;
-  width: 1000px
+  width: 1000px;
   display: flex;
   juatify-content: center;
   align-items: center;
 }
+
