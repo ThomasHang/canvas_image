@@ -50,7 +50,7 @@ export default function RenderCanvas(props) {
       ctx.drawImage(images[0], 0, 0);
 
       // 将画布内容输出为一张图片
-      const outputImage = canvas.toDataURL("image/png");
+      const outputImage = canvas.toDataURL("image/jpeg");
       console.log(outputImage); // 输
 
       setImgs(outputImage);
